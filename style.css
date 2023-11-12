@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(130, 198, 130, 0.862);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panal{
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+}
+.tobar{
+    width: 100%;
+    height: 12%;
+    background-color: rgb(41, 154, 67);
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+}
+.box{
+  width: 45px;
+  height: 35px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+}
+#bubble{
+    width: 5%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: rgb(41, 154, 67);
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bubble:hover{
+    background-color: rgb(60, 220, 45);
+}
+.fobar{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
